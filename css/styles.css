@@ -38,7 +38,7 @@ nav li a {
 ====================*/
 
 body {
-	background: #041922;
+	background: url('../img/crossword.png');
 }
 
 
@@ -47,12 +47,26 @@ section {
 	margin: 2em 0;
 }
 
+section p {
+	color: black;
+}
+
+/*=====================
+	Contact
+=======================*/
+
+#gmap {
+	height: 250px;
+	width: 450px;
+	margin: 3em;
+}
+
 /*==================
 		Form
 ====================*/
 
 label {
-	color: white;
+	color: black;
 }
 
 /*==================

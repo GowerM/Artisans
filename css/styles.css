@@ -10,6 +10,7 @@ header div a {
 nav {
 	background: #4B74A8;
 	text-align: center;
+	padding-top: 1em;
 }
 
 nav li {
@@ -36,8 +37,22 @@ nav li a {
 		Body
 ====================*/
 
+body {
+	background: #041922;
+}
+
+
 section {
-	background: #AD3510;
+	margin: 0 auto;
+	margin: 2em 0;
+}
+
+/*==================
+		Form
+====================*/
+
+label {
+	color: white;
 }
 
 /*==================

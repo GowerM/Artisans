@@ -1,0 +1,54 @@
+/*=================
+		Header
+===================*/
+header div a {
+	color: black;
+	
+}
+
+
+nav {
+	background: #4B74A8;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 3em;
+
+}
+
+
+
+nav li a {
+	color: white;
+}
+
+
+/*==================
+		Font
+====================*/
+
+
+
+
+/*==================
+		Body
+====================*/
+
+section {
+	background: #AD3510;
+}
+
+/*==================
+		Footer
+====================*/
+
+footer {
+	background: #4B74A8;
+	padding: 3em;
+}
+
+footer p {
+	font-size: .75em;
+}

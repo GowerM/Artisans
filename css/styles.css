@@ -1,6 +1,11 @@
 /*=================
 		Header
 ===================*/
+
+header {
+	border-bottom: 1px black solid;
+}
+
 header div a {
 	color: black;
 	
@@ -8,9 +13,8 @@ header div a {
 
 
 nav {
-	background: #4B74A8;
 	text-align: center;
-	padding-top: 1em;
+	padding-top: 2.5em;
 }
 
 nav li {
@@ -21,16 +25,34 @@ nav li {
 
 
 
-nav li a {
+/*nav li a {
 	color: white;
-}
+}*/
 
 
 /*==================
 		Font
 ====================*/
 
+h4 {
+	color: #43484e;
+}
 
+section h4 {
+	color: #003E47;
+}
+
+p {
+	color: #4D4C4B;
+}
+
+section p {
+	color: black;
+}
+
+footer p {
+	font-size: .75em;
+}
 
 
 /*==================
@@ -47,9 +69,7 @@ section {
 	margin: 2em 0;
 }
 
-section p {
-	color: black;
-}
+
 
 /*=====================
 	Contact
@@ -61,12 +81,32 @@ section p {
 	margin: 3em;
 }
 
+.info {
+	padding-top: 3em;
+}
+
 /*==================
 		Form
 ====================*/
 
 label {
-	color: black;
+	color: #4D4C4B;
+}
+
+/*==================
+		Buttons
+====================*/
+
+button {
+	background: #746D68;
+}
+
+a.medium.round.button {
+	background: #746D68;
+}
+
+a.medium.round.button:hover {
+	background: #3E3D3C;
 }
 
 /*==================
@@ -74,10 +114,9 @@ label {
 ====================*/
 
 footer {
-	background: #4B74A8;
+	background: #DED2B4;
 	padding: 3em;
+	width: 100%;
 }
 
-footer p {
-	font-size: .75em;
-}
+

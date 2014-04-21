@@ -116,7 +116,17 @@ label {
 	width: 100%;
 }
 
+/*==================
+		Accordion
+====================*/
 
+.accordion {
+	margin: 1em 0;
+}
+
+.content::after {
+	
+}
 
 /*==================
 		Buttons
